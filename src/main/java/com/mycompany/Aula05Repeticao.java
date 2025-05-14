@@ -14,7 +14,7 @@ public class Aula05Repeticao {
          * 3° incremento ou decremento
          */
         // Incremento
-        for(int i = 0;i < 10; i = i +2) {
+        for (int i = 0; i < 10; i = i + 2) {
             System.out.println(i);
         }
 
@@ -26,10 +26,41 @@ public class Aula05Repeticao {
         }
         System.out.println("Booom !!");
 
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Digite um numero");
+        // Scanner scan = new Scanner(System.in);
+        // System.out.println("Digite um numero");
 
-        int numero = scan.nextInt();
-        System.out.println("Voce digitou " + numero + " !!");
+        // int numero = scan.nextInt();
+        // System.out.println("Voce digitou " + numero + " !!");
+
+        /**
+         * while (enquanto)
+         * 
+         * Enquanto a condiçao for verdadeira o coigo sera executado
+         * diferente da proxima estrutura, essa faz a validaçao antes da execução
+         * 
+         */
+
+        int num1 = 1;
+
+        while (num1 != 0) {
+            Scanner scan = new Scanner(System.in);
+            System.out.println("Digite um numero: (0para parar)");
+
+            num1 = scan.nextInt();
+
+            System.out.println("voce digitou " + num1 + "!!");
+        }
+
+
+
+      int num2 = 1;
+      
+      do {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Digite um numero: (0 para sair)");
+
+        num2 = sacan.nest
+      }
+
     }
 }
