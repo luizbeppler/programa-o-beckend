@@ -1,33 +1,33 @@
 package com.mycompany;
 
 public class Aula06Condicional {
-
     public static void main(String[] args) {
         /**
          * Estrutura condicional simples (if, else)
-         *
-         * pode ser lida como: SE, SENÃO
-         *
+         * 
+         * pode ser lida como: SE, SENÃO 
+         * 
          * a condição verdadeira é executada dentro do if
          */
         int num = 3;
 
         // % é o resto da divisão
-        // comparando com 0 significa que o número é par
+        // comparando com 0, significa que o número é par
         if (num % 2 == 0) {
             System.out.println(num + " é par !!");
         } else {
-            System.out.println(num + " é impar !!");
+            System.out.println(num + " é ímpar !!");
         }
 
         /**
          * Estrutura condicional composta (if, else if, else)
-         *
-         * nesse tipo de estrutura podemos ter mais de uma
+         * 
+         * nesse tipo de estrutura podemos ter mais de uma 
          * verificação caso o primeiro if não seja satisfeito
-         *
+         * 
          * um exemplo prático pode ser a verificação do IMC
          */
+
         double imc = 24.0;
 
         if (imc < 18.5) {

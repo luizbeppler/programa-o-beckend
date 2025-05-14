@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IMC",
+            "request": "launch",
+            "mainClass": "com.mycompany.IMC",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "maupeso",
+            "request": "launch",
+            "mainClass": "com.mycompany.maupeso",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Aula06Condicional",
+            "request": "launch",
+            "mainClass": "com.mycompany.Aula06Condicional",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Aula05Repeticao",
             "request": "launch",
             "mainClass": "com.mycompany.Aula05Repeticao",
