@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "recu",
+            "request": "launch",
+            "mainClass": "com.mycompany.recu",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "Recuperacao",
+            "request": "launch",
+            "mainClass": "com.mycompany.Recuperacao",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "AnaliseVetor",
+            "request": "launch",
+            "mainClass": "com.mycompany.AnaliseVetor",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "IMC",
             "request": "launch",
             "mainClass": "com.mycompany.IMC",
