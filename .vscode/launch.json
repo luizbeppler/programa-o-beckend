@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.mycompany.poo.aula12.App",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Aula09Objetos",
             "request": "launch",
             "mainClass": "com.mycompany.Aula09Objetos",
