@@ -25,6 +25,8 @@ public class Pessoa {
         System.out.println("Chamando construtor 2");
     }
 
+    
+
     public String getNome() {
         return nome;
     }
@@ -56,4 +58,12 @@ public class Pessoa {
     public void setPeso(double peso) {
         this.peso = peso;
     }
+
+    
+
+
+
+
+
+
 }
